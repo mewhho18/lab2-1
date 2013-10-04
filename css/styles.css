@@ -5,3 +5,54 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.main-content {
+	background-color: #FFF;
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: 'Boogaloo', sans-serif;
+	color: #116189
+}
+
+.motto {
+	font-style: italic;
+	font-size: 120%;
+}
+
+nav {
+	background-color: #D74710;
+	border-radius: 10px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #FF9D45;
+}
+
+#factory{
+	float: left;
+}
+
+#free-shipping {
+	float: right;
+}
